@@ -15,7 +15,7 @@ jobs:
           profile-id: '00000000-0000-0000-0000-000000000000'
           user-id: ${{ secrets.ACUNETIX_USER_ID }}
           api-token: ${{ secrets.ACUNETIX_API_TOKEN }}
-          base-url: 'http://http://52.161.96.86/'
+          base-url: 'http://52.161.96.86/'
       # Displays output for action
       - name: Display Scan Request Message
         run: echo "${{ steps.acunetix-360-scan-step.outputs.scan-message }}"
