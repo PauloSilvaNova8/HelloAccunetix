@@ -1,4 +1,6 @@
 name: acunetix_scan_job
+on:
+  push:
 jobs:
   build:
     runs-on: ubuntu-20.04
